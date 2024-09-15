@@ -1,0 +1,23 @@
+html {
+    font-size: 22px;
+}
+code {
+    font-size: 18px;
+}
+body {
+    background-color: #f3f8f8;
+    color: rgb(11, 1, 1);
+}
+
+a {
+    color: rgb(99, 33, 154); 
+    /* this color will only apply to links that you never visited since you generated them in the code */
+}
+
+a:visited {
+    color: rgb(5, 0, 8);
+}
+
+a:hover {
+    color: yellow;
+}
